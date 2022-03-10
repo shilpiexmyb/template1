@@ -1,179 +1,153 @@
 *{
-    box-sizing:border-box;
-    margin: 0px;
     padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
-
-
-.inner_border{
-    background-color: white;
-    width:95vw;
-    height: 71vw;
-    padding: 40px;
-    border: 30px solid black;
-    margin-left: 35px;
-    
-}
-.body{
-    background-color:#ffcccc;
-    width:85vw;
-    height: 40vw;
-    display: flex;
-    padding-left: 70px;
-    padding-top: 40px;
-    
-    
-}
-.list{
-    display: flex;
-    list-style: none;
-    margin-top: 18px;
-    margin-left: 281px;
-}
-
-.list li{
-    margin-right: 25px;
-    margin-top: 7px;
-}
-.apple{
-    margin-left: 25px;
-    margin-top: 20px;
-    font-weight: bold;
-    font-size: 20px;
-}
-.btn{
-    width:100px;
-    height: 40px;
-    margin-top: 13px;
-    margin-left: 212px;
+.purple{
+    background-color:rgb(116, 148, 255);
     color:white;
-    background-color: black;
+    display:flex;
+    height: 60px;
+   
+}
+.purple a{
+    color:white;
+    margin-left: 20px;
+    margin-top: 18px;
+
+}
+.text{
+    margin-left: 430px;
+    margin-top: 20px;
+    
+
+}
+.symbol{
+    display:flex;
+    margin-left: 150px;
+    margin-top:50px;
+    
+}
+.symbol_color{
+    color: rgb(116, 148, 255);
+}
+.main_body{
+    display: flex;
+}
+.Uwsome{
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.nav_items{
+    display: flex;
+}
+.navbar{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 126px;
+}
+.nav_items li a{
+    margin-left: 46px;
+    text-decoration: none;
+    color: black;
+    
+}
+.nav_items li {
+    list-style: none;
+    
+}
+.btn1{
+    margin-left:122px;
+    background-color: transparent;
+    border: 2px solid rgb(116, 148, 255);
     border-radius: 20px;
-    padding:10px;
-    border: none;
-}
-.text1{
-    margin-top: -400px;
-    margin-left: 63px;
-    font-size: 60px;
-}
-.text2{
-    margin-top: 40px;
-    margin-left: 63px;
-    font-size: 20px;
+    padding: 4px;
+    width: 106px;
+    margin-top: -11px;
 }
 .btn2{
-    width:150px;
-    height: 40px;
-    margin-top: 25px;
-    margin-left: 63px;
-    color:white;
-    background-color: black;
+    margin-left: 20px;
+    background-color: transparent;
+    border: 2px solid rgb(116, 148, 255);
     border-radius: 20px;
-    padding:10px;
-    border: none;
+    padding: 4px;
+    width: 106px;
+    margin-top: -11px;
 }
-.image img{
-    width: 500px;
-    height: 400px;
-    margin-left: 627px;
-    margin-top: -395px;
-    border: 8px solid white;
-    z-index: -1;
-}
-.btn3{
+.apple_flex{
     display: flex;
-    margin-left:567px;
-    padding: 10px;
-    background-color: white;
-    border:none;
-    width:240px;
-    padding-left: 30px;
-    border-radius: 20px;
-    margin-top:-300px;
-    z-index:1;
-    position: absolute;
-}
-.image2{
-    margin-right:15px;
-    color: red;
-}
-.image3{
-    margin-right:15px;
-    color:blue;
-}
-.image4{
-    margin-right:15px;
-    color:greenyellow;
-}
-.btn4{
-    display: flex;
-    margin-left:900px;
-    margin-top: -900px;
-    padding: 10px;
-    width:240px;
-    padding-left: 30px;
-    background-color: white;
-    border:none;
-    border-radius: 20px;
-    margin-top:-300px;
-    z-index:1;
-    position: absolute;
-}
-.final{
-    margin-top: 84px;
-    margin-left: 75px;
-}
-.send{
-    margin-top: 180px;
-    margin-left: 80px;
-}
-.btn5{
-    display: flex;
-    margin-left: 493px;
-    margin-top: -100px;
-    padding: 8px;
-    width:240px;
-    padding-left: 10px;
-    background-color: white;
-    border:none;
-    border-radius: 20px;
-    margin-top:-300px;
-    z-index:1;
-    position: absolute;
-}
-.border{
-    width: 111px;
-   
-    margin-top: 8px;
-    margin-left: 170px;
-}
-.customer{
-    font-size: 31px;
-    font-weight: bold;
-    margin-top: -314px;
-    margin-left: 165px;
-}
-.star_image{
-    color: #6ab04c;
-
+    margin-top: 30px;
 }
 .star{
-margin-left: 167px;
-margin-top: 40px;
-}
-.crm1{
-    margin-left: 166px;
-    margin-top: 30px;
-    font-size: 20px;
-}
-
-
-.review1{
-    color: gray;
-    margin-left: 166px;
-    margin-top: 20px;
-}
-.star_flex{
     display: flex;
+}
+.main_flex{
+    display: flex;
+}
+.text1{
+    font-size: 65px;
+    font-weight: bold;
+    margin-left: 150px;
+    margin-top: 135px;
+}
+.text2{
+    font-size: 20px;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+.star_1{
+    margin-left: 154px;
+    margin-top: 70px;
+}
+.star_2{
+    margin-left: 30px;
+    margin-top:70px ;
+}
+.gap{
+    margin-left: 20px;
+    margin-top: 8px;
+}
+
+.vector_image img{
+    margin-left: 120px;
+    margin-top: -348px;
+    height: 585px;
+    width: 671px;
+}
+.btn3{
+    margin-left: 150px;
+    margin-top: 32px;
+    background-color:rgb(116, 148, 255) ;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    width: 150px;
+    padding: 10px;
+
+}
+.btn4{
+    margin-left: 20px;
+    margin-top: 32px;
+    background-color:rgb(116, 148, 255) ;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    width: 150px;
+    padding: 10px;
+
+}
+.symbol_flex{
+    display: flex;
+    margin-left: 70px;
+    margin-top: 36px;
+
+}
+.icon{
+    margin-left: 80px;
+}
+.purple1{
+    margin-top: 20px;
+    background-color:rgb(116, 148, 255) ;
+    height: 60px;
 }
